@@ -29,7 +29,15 @@
    ```bash
    conda activate your_env_name  # Replace "your_env_name" with the name you created in the previous step
    ```
-
+3. **Install sentence-transformers**:
+   ```
+   pip install -U sentence-transformers
+   ```
+4. **Get finetuned model from HuggingFace**:
+   ```python
+   from sentence_transformers import SentenceTransformer
+   
+   model = SentenceTransformer("cuteo23/scam_finetuned")
 
 ## Usage
 
