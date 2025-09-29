@@ -64,6 +64,7 @@ streamlit run streamlit.py
 ### 3. Get the model's predictions
 
 Start speaking into the microphone. Every 5 seconds the output that looks like this will be generated:
+
 '''bash
  Hello there, this is David from the Security Department.
 ⚠️ Possible scam
